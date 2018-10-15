@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Малая экспертная система</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <input type="button" name="reset" value="reset" id="resetBtn" class="input_reset">
+    <p class="header__title">Малая экспертная система</p>
+  </header>
+  <main>
+    <div class="upload">
+      <p>Выберите файл (формат mkb):</p>
+      <input type="file" id="fileInput" class="input_upload"/>
+      <p class="file_status">
+
+      </p>
+    </div>
+    <div class="container">
+      <div class="file_titles">
+
+      </div>
+      <div class="probabality">
+
+      </div>
+      <div class="file_hypotheses">
+
+      </div>
+      <div class="consultation">
+        <div class="questions">
+
+        </div>
+        <div class="consultation_control">
+          <input type="button" name="" value="Start" class="input_start" id="consultation_start">
+          <div class="consultation_process">
+            <span>Введите вероятность истинности: </span>
+            <input type="text" name="" class="input_prob" id="input_prob">
+            <input type="button" name="" value="Ok" class="input_ok" id="input_ok">
+          </div>
+        </div>
+      </div>
+      <div class="file_features">
+
+      </div>
+
+    </div>
+  </main>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="index.js"></script>
+
+</body>
+</html>

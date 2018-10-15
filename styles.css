@@ -1,0 +1,179 @@
+p {
+  padding: 0;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+  color: #262626;
+}
+
+header {
+  position: relative;
+}
+
+main {
+  text-align: left;
+}
+.header__title {
+  font-size: 36px;
+}
+
+.input_upload {
+  font-size: 16px;
+  outline: none;
+  padding: 10px 0 10px 20px;
+  border: 2px solid #262626;
+  color: #262626;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.input_reset {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #262626;
+  font-weight: 700;
+  text-decoration: none;
+  user-select: none;
+  padding: .5em 2em;
+  outline: none;
+  border: 2px solid #262626;
+  border-radius: 1px;
+  transition: 0.2s;
+}
+
+.input_reset:hover {
+  background-color: #464646;
+  color: white;
+}
+
+.file_titles {
+  margin-top: 40px;
+  border: 2px solid #262626;
+  width:100%;
+  text-align: center;
+}
+
+.file_features {
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  margin-top: -8px;
+  border: 2px solid #262626;
+  width: 55%;
+  max-height: 250px;
+  overflow-y: scroll;
+}
+
+.file_hypotheses {
+  border: 2px solid #262626;
+  display: inline-block;
+  padding: 10px 20px 10px 20px;
+  max-height: 250px;
+  min-height: 250px;
+  overflow-y: scroll;
+  font-size: 16px;
+  width: 30%;
+  margin-top: -2px;
+}
+
+.container {
+  display: none;
+}
+
+.input_prob {
+  width: 40px;
+  height: 30px;
+  outline: none;
+  text-align: center;
+  font-size: 18px;
+}
+
+.input_start {
+  background-color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #262626;
+  font-weight: 700;
+  text-decoration: none;
+  user-select: none;
+  padding: 5px;
+  outline: none;
+  border: 2px solid #262626;
+  border-radius: 1px;
+  transition: 0.2s;
+}
+.input_start:hover {
+  background-color: #ddd;
+}
+.input_ok {
+  background-color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #262626;
+  font-weight: 700;
+  text-decoration: none;
+  user-select: none;
+  padding: 5px;
+  outline: none;
+  border: 2px solid #262626;
+  border-radius: 1px;
+  transition: 0.2s;
+}
+
+.input_ok:hover {
+  background-color: #ddd;
+}
+
+.hypotheses {
+  position: relative;
+  border-bottom: 1px solid #ddd;
+}
+
+.aprior {
+  width: 35%;;
+  display: inline-block;
+}
+
+.hypo_name {
+  display: inline-block;
+  width: 64%;
+  word-wrap: normal;
+}
+
+.consultation {
+  margin-left: -2px;
+  position: relative;
+  display: inline-block;
+  width: 69%;
+  height: 250px;
+  border: 2px solid #262626;
+  padding: 10px;
+}
+
+.questions {
+  position: absolute;
+  top: 2px;
+  width: 98%;
+  max-height: 200px;
+  overflow-y: scroll;
+  border-bottom: 1px solid #ddd;
+}
+.consultation_control {
+  position: absolute;
+  bottom: 2px;
+}
+
+.consultation_process {
+  display: none;
+}
